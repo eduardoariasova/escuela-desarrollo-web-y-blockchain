@@ -19,7 +19,8 @@ app.use(express.static(path.resolve(__dirname, '../frontend/build')));
 
 
 
-
+//IMPORTAR RUTAS //////////////////////////////
+app.use(require('./routes/blockchain'));
 
 
 
